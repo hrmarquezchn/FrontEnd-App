@@ -4,15 +4,19 @@ import React from 'react'
 export default function Login() {
   return (
     <View style={styles.container}>
-        <Image
-          style={{ width: 350, height: 100, marginTop: 200, marginBottom: 100 }}
-          source={{
-            uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/CEUTEC_HONDURAS.png/1024px-CEUTEC_HONDURAS.png",
-          }}
-        ></Image>
+      <Image
+        style={{ width: 350, height: 100, marginTop: 200, marginBottom: 100 }}
+        source={{
+          uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/CEUTEC_HONDURAS.png/1024px-CEUTEC_HONDURAS.png",
+        }}
+      ></Image>
       <View style={styles.containerBackground}>
         <TextInput style={styles.input} placeholder="Correo"></TextInput>
-        <TextInput style={styles.input} placeholder="Clave"></TextInput>
+        <TextInput
+          style={styles.input}
+          placeholder="Clave"
+          secureTextEntry={true}
+        ></TextInput>
         <Button title="Entrar"></Button>
       </View>
     </View>
