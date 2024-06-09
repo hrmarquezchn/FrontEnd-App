@@ -5,9 +5,12 @@
 
    ```bash
    npm install
+   ```
+   ```bash
    npm install axios
    npx expo install expo-camera expo-contacts expo-sensors
    ```
+
   
 
 2. Start the app
