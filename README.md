@@ -8,7 +8,8 @@
    ```
    ```bash
    npm install axios
-   npx expo install expo-camera expo-contacts expo-sensors
+   ```
+   ```bash npx expo install expo-camera expo-contacts expo-sensors
    ```
 
   
